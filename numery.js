@@ -8,6 +8,7 @@ function numery(ciag){
         isNan.ciag[i]=true;
         tabNum.push(tab[i]);
     }
+console.log(split(tab));
 
 }
 
