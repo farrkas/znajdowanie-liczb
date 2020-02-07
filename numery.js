@@ -5,7 +5,7 @@ function numery(ciag){
     var tab=[...ciag];
     var tabNum=[];
     while (i<(tab.length-1)){
-        isNan.ciag[i]=true;
+        isNan.tab[i]=true;
         tabNum.push(tab[i]);
     }
 console.log(split(tab));
