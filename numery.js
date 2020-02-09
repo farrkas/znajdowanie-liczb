@@ -1,15 +1,23 @@
-function numery(ciag){
+function numery(ciag) {
 
-//if (ciag.length>0){
-    
-    var tab=[...ciag];
-    var tabNum=[];
-    while (i<(tab.length-1)){
-        isNan.tab[i]=true;
-        tabNum.push(tab[i]);
-    }
-console.log(split(tab));
+    if (ciag.length > 0) {
 
-}
+        var tab = [...ciag];
+        var tabNum = [];
 
-numery("125dsa4812");
+        for (let i = 0, i<= tab.length, i++) {
+
+            if (isNaN(tab[i]) = true) {
+                tabNum.push(tab[i]);
+            }
+
+                var tabNumStr = tabNum.join("");
+                console.log(tabNumStr);
+//console.log(tabNum);
+   }
+else { console.log("brak wpisanycego ciagu znaków") }
+            }
+            console.log(tabNumStr
+            );
+
+            numery("125dsa4812");
