@@ -4,20 +4,21 @@ function numery(ciag) {
 
         var tab = [...ciag];
         var tabNum = [];
+        let i = 0;
+        while (i <= tab.length) {
 
-        for (let i = 0, i<= tab.length, i++) {
-
-            if (isNaN(tab[i]) = true) {
+            if (isNaN(tab[i])!=true) {
                 tabNum.push(tab[i]);
             }
 
-                var tabNumStr = tabNum.join("");
-                console.log(tabNumStr);
-//console.log(tabNum);
-   }
-else { console.log("brak wpisanycego ciagu znaków") }
-            }
-            console.log(tabNumStr
-            );
+            i++;
+        }
+        var tabNumStr = tabNum.join("");
+        console.log(tabNumStr);
+        //console.log(tabNum);
+    }
+    else { console.log("brak wpisanycego ciagu znaków") }
+}
 
-            numery("125dsa4812");
+
+numery("125dsa4812asddsa1414120das04");
